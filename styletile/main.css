@@ -1,0 +1,319 @@
+.button {
+    background-color: #bd081c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: "Helvetica Neue";
+	font-size:15px;
+	font-weight: bold;
+	border-radius: 5px;
+
+}
+
+.button:hover{
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function:ease;
+  transition-delay: initial;
+  background-color: #a32026;
+}
+
+h1 {
+  font-family: "Helvetica Neue";
+  font-size: 70px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 70px;
+}
+h2 {
+  font-family: "Helvetica Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 46px;
+}
+
+h3 {
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 46px;
+  text-align: left;
+}
+h4 {
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 46px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+h5 {
+  font-family: "Helvetica Neue";
+  font-size: 46px;
+  font-style: normal;
+  font-variant: bolder;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: left;
+  color: #bd081c;
+margin-top: 20px}
+h6 {
+  font-family: "Helvetica Neue";
+  font-size: 28px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 33px;
+  text-align: left;
+margin-top: -75px
+}
+h7 {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 19px;
+  text-align: left;
+  margin-top: -75px
+}
+p{
+  font-family: "Helvetica Neue";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 23px;
+  text-align: left;
+  margin-top: -50px
+}
+img{
+   margin: auto;
+  transition: all 500ms ease; 
+}
+
+
+.pad{
+  padding-left: 50px;
+  position: relative;
+}
+.colo{
+  float: left;
+  display: block;
+  margin: 50px;
+  padding-top: 0px;
+  position: relative;
+  margin-top: -15px;
+}
+
+.styl{
+  float: left;
+  display: block;
+  padding-top: 0px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.line{
+  margin-top: 750px;
+    width: 1070px;
+    height: 47px;
+    border-bottom: 2px solid black;
+    position: absolute;
+    }
+.but{
+  float: left;
+  display: block;
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-left: 20px; 
+  position: relative;
+}
+.componen{
+  width: 400px;
+  display: block;
+  margin-top: 100px;
+  padding-top: 100px;
+  margin-left: 60px;
+  position: static;
+}
+.pal{
+  padding-left: -50px;
+}
+
+.popup{
+  display: none;
+}
+
+div.popup-holder:hover .popup {
+  display: block;
+}
+.hov{
+  color: #b5b5b5;
+}
+.hov:hover{
+  color: #F4AE01;
+  text-decoration: underline;
+}
+
+#imag{
+    height: auto;
+    width: 200px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+#imag:hover {
+    content:  url('img/14.png');
+    height: auto;
+    width: 200px;
+    position: relative;
+}
+
+#image1{
+    height: auto;
+    width: 600px;
+    padding-left: 10px;
+}
+
+#image1:hover {
+    content:  url('img/16.png');
+    height: auto;
+    width: 600px;
+    position: relative;
+}
+
+#ima{
+    height: auto;
+    width: 200px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+#ima:hover {
+    content:  url('img/18.png');
+    height: auto;
+    width: 200px;
+    position: relative;
+}
+
+
+.cara{
+  width: 200px;
+  margin-left: 110px;
+}
+
+label {
+  background: #444;
+  color: #fff;
+  transition: transform 400ms ease-out;
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: 1650px;
+    margin-left: 10px;
+
+}
+
+form {
+  margin-left: 110px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  white-space: nowrap;
+  width: 50px;
+}
+input {
+  position: absolute;
+}
+
+.keys {
+  position: relative;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  transition: all 300ms linear;
+  opacity: 0;
+}
+
+input:nth-of-type(1):checked ~ label:nth-of-type(1), 
+input:nth-of-type(2):checked ~ label:nth-of-type(2),
+input:nth-of-type(3):checked ~ label:nth-of-type(3),
+input:nth-of-type(4):checked ~ label:nth-of-type(4){
+   z-index: 0;
+}
+
+input:nth-of-type(1):checked ~ label {
+  transform: translate3d(0, 0, 0);
+}
+
+input:nth-of-type(2):checked ~ label {
+  transform: translate3d(-100%, 0, 0);
+}
+
+input:nth-of-type(3):checked ~ label {
+  transform: translate3d(-200%, 0, 0);
+}
+
+input:nth-of-type(4):checked ~ label {
+  transform: translate3d(-300%, 0, 0);
+}
+
+label {
+  background: #444;
+  background-size: cover;
+  font-size: 3rem;
+}
+
+label[for="diamonds"],
+label[for="hearts"] {
+  background: #cc0000;
+}
+
+label:before,
+label:after {
+  color: white;
+  display: block;
+  position: absolute;
+  padding: 1rem;
+  font-size: 3rem;
+  height: 10rem;
+  vertical-align: middle;
+  line-height: 10rem;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  cursor: pointer;
+}
+
+label:before {
+  content: "\276D";
+  right: 100%;
+}
+
+label:after {
+  content: "\276C";
+  left: 100%;
+}
+
+
+

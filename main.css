@@ -1,0 +1,51 @@
+h1 {
+	font-family: "Helvetica Neue";
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 70px;
+}
+h2 {
+	font-family: "Helvetica Neue";
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 46px;
+}
+
+h3 {
+	font-family: "Helvetica Neue";
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 46px;
+}
+
+.button {
+    background-color: #bd081c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: "Helvetica Neue";
+	font-size:15px;
+	font-weight: bold;
+	border-radius: 5px;
+
+}
+
+.button:hover{
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function:ease;
+  transition-delay: initial;
+  background-color: #a32026;
+}
