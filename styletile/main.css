@@ -217,17 +217,16 @@ div.popup-holder:hover .popup {
 
 label {
   background: #444;
-  color: #fff;
+  color: #444;
   transition: transform 400ms ease-out;
   display: inline-block;
   width: 400px;
   height: 300px;
   position: relative;
   z-index: 1;
-  text-align: center;
   margin-top: 1750px;
-    margin-left: 10px;
-
+  margin-left: 10px;
+  margin-bottom: 50px;
 }
 
 form {
@@ -239,6 +238,7 @@ form {
   right: 0;
   white-space: nowrap;
   width: 50px;
+  margin-bottom: 50px;
 }
 input {
   position: absolute;
@@ -280,15 +280,11 @@ input:nth-of-type(4):checked ~ label {
 }
 
 label {
-  background: #444;
   background-size: cover;
   font-size: 3rem;
 }
 
-label[for="diamonds"],
-label[for="hearts"] {
-  background: #cc0000;
-}
+
 
 label:before,
 label:after {
@@ -296,7 +292,6 @@ label:after {
   display: block;
   position: absolute;
   padding: 1rem;
-  font-size: 3rem;
   height: 10rem;
   vertical-align: middle;
   line-height: 10rem;
@@ -314,6 +309,3 @@ label:after {
   content: "\276C";
   left: 100%;
 }
-
-
-
