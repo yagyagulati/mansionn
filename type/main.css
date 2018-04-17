@@ -1,0 +1,89 @@
+h1 {
+	font-family: "Helvetica Neue";
+	font-size: 46px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 50px;
+}
+h2 {
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	font-style: lighter;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 33px;
+}
+
+h4 {
+	font-family: "Helvetica Neue";
+	font-size: 28px;
+	font-style: medium;
+	font-variant: medium;
+	line-height: 33px;
+}
+
+h3 {
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 23px;
+}
+
+h6 {
+	font-family: "Helvetica Neue";
+	font-size: 14px;
+	font-style: lighter;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 19px;
+}
+
+.redtext {
+	color: #bc2026;
+}
+.type{
+  float: left;
+  padding-top: 50px;
+  padding-left: 75px;
+}
+.typo{
+  padding-left: 50px;
+  position: relative;
+  float: center;
+  padding-left: 50px;
+}
+
+.aa{
+  padding-left: 50px;
+  padding-top: 50px;
+  position: relative;
+  float: left;
+}
+.button {
+    background-color: #bd081c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: "Helvetica Neue";
+	font-size:15px;
+	font-weight: bold;
+	border-radius: 5px;
+  margin-left: 420px;
+  margin-top: 30px;
+}
+
+.button:hover{
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function:ease;
+  transition-delay: initial;
+  background-color: #a32026;
+}
